@@ -1,0 +1,52 @@
+/* Style for body */
+body {
+    text-align: center;
+    margin: 175px;
+    background-color: #d5d5d5;
+}
+
+/* Style for qr image */
+img {
+    display: inline !important;
+    /* Important to override any conflicting styles */
+}
+
+/* Style for user input field */
+#user_input {
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles for generate and download buttons */
+#generate,
+#download {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#generate {
+    background-color: #4045ce;
+}
+
+#generate:hover {
+    background-color: #4242a3;
+}
+
+#download {
+    background-color: #ce4040;
+}
+
+#download:hover {
+    background-color: #a34242;
+}
+
+/* Style for QR code container */
+#qr_code {
+    margin-top: 20px;
+}
